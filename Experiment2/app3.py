@@ -8,7 +8,7 @@
 # 高于32：严重肥胖
 
 def bmi(height, weight):
-    return weight / height ** 2
+    return weight / height**2
 
 
 result = bmi(1.75, 80.5)
